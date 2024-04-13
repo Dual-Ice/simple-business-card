@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D920D2BA2BCA861500AC280A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920D2B92BCA861500AC280A /* InfoView.swift */; };
 		D921A96F2BC737AE0079F05B /* MyCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921A96E2BC737AE0079F05B /* MyCardApp.swift */; };
 		D921A9712BC737AE0079F05B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921A9702BC737AE0079F05B /* ContentView.swift */; };
 		D921A9732BC737B10079F05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D921A9722BC737B10079F05B /* Assets.xcassets */; };
 		D921A9762BC737B10079F05B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D921A9752BC737B10079F05B /* Preview Assets.xcassets */; };
+		D921A97E2BC73A880079F05B /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D921A97D2BC73A880079F05B /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D920D2B92BCA861500AC280A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		D921A96B2BC737AE0079F05B /* MyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D921A96E2BC737AE0079F05B /* MyCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardApp.swift; sourceTree = "<group>"; };
 		D921A9702BC737AE0079F05B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D921A9722BC737B10079F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D921A9752BC737B10079F05B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D921A97D2BC73A880079F05B /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D921A97F2BC73AE80079F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		D921A96D2BC737AE0079F05B /* MyCard */ = {
 			isa = PBXGroup;
 			children = (
+				D921A97F2BC73AE80079F05B /* Info.plist */,
+				D921A97C2BC73A6E0079F05B /* fonts */,
 				D921A96E2BC737AE0079F05B /* MyCardApp.swift */,
 				D921A9702BC737AE0079F05B /* ContentView.swift */,
+				D920D2B92BCA861500AC280A /* InfoView.swift */,
 				D921A9722BC737B10079F05B /* Assets.xcassets */,
 				D921A9742BC737B10079F05B /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				D921A9752BC737B10079F05B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D921A97C2BC73A6E0079F05B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D921A97D2BC73A880079F05B /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D921A97E2BC73A880079F05B /* Pacifico-Regular.ttf in Resources */,
 				D921A9762BC737B10079F05B /* Preview Assets.xcassets in Resources */,
 				D921A9732BC737B10079F05B /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D921A9712BC737AE0079F05B /* ContentView.swift in Sources */,
+				D920D2BA2BCA861500AC280A /* InfoView.swift in Sources */,
 				D921A96F2BC737AE0079F05B /* MyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +321,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
